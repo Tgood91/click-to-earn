@@ -1,0 +1,13 @@
+click-to-earn-bounty/
+├── contracts/
+│   └── ClickToEarnBounty.sol
+├── scripts/
+│   └── deploy.ts
+├── test/
+│   └── ClickToEarnBounty.ts
+├── hardhat.config.ts
+├── package.json
+├── tsconfig.json
+├── .env.example
+├── .gitignore
+└── README.md
