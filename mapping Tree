@@ -11,3 +11,17 @@ click-to-earn-bounty/
 ├── .env.example
 ├── .gitignore
 └── README.md
+click-to-earn/
+└── click-to-earn-bounty/
+    ├── contracts/
+    │   └── ClickToEarnBounty.sol
+    ├── scripts/
+    │   └── deploy.ts
+    ├── test/
+    │   └── ClickToEarnBounty.ts
+    ├── hardhat.config.ts
+    ├── package.json
+    ├── tsconfig.json
+    ├── .env.example
+    ├── .gitignore
+    └── README.md
