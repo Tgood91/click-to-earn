@@ -1,2 +1,2 @@
 # click-to-earn
-a project worthy of nodle network
+The "Click-to-Earn" Truth Economy Bounty BoardThe Concept: Integrating the anti-deepfake capability of the Click camera app into micro-tasks on the Nodle map.How it Works: Companies, insurance agencies, or decentralized map protocols could post "Truth Bounties" for physical milestones (e.g., "Verify construction progress at 5th Ave" or "Prove road conditions after the storm"). Users visit the spot, snap a photograph with the Click camera framework, and the tamper-evident, C2PA-stamped metadata immediately triggers an automatic smart contract payout from the bounty board
