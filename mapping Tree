@@ -16,6 +16,39 @@ click-to-earn/
     ├── contracts/
     │   └── ClickToEarnBounty.sol
     ├── scripts/
+                    CLICK / EVIDENCE
+                           │
+                           ▼
+                 ┌──────────────────┐
+                 │  Off-chain       │
+                 │  Verifier        │
+                 │                  │
+                 │ C2PA             │
+                 │ H3 location      │
+                 │ Device evidence  │
+                 │ Anti-replay      │
+                 └────────┬─────────┘
+                          │
+                    signed/verified
+                      attestation
+                          │
+                          ▼
+              ┌──────────────────────┐
+              │ ClickToEarnBounty    │
+              │   zkSync Era         │
+              │                      │
+              │ NODL ESCROW          │
+              │ H3 validation        │
+              │ C2PA issuer          │
+              │ replay protection    │
+              │ bounty state         │
+              └──────────┬───────────┘
+                         │
+                         ▼
+                    NODL PAYOUT
+                         │
+                         ▼
+                     CLAIMANT
     │   └── deploy.ts
     ├── test/
     │   └── ClickToEarnBounty.ts
